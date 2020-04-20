@@ -9,8 +9,6 @@ def time():
 time()
 
 user_name = input("What is your school email? ")
-#user_name = "Deron.mcguire@morehouse.edu"
-#password = "Playstation8"
 password = input("what is your password? ")
 print("Logging in now...... ")
 session = requests.session()
